@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Idea Generator 🚀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hackathon Idea Generator 🚀</h1>
+        <p>Stuck on your next big idea? Let the generator spark your creativity! 💡</p>
+
+        <div class="selector">
+            <label for="category">Choose your category:</label>
+            <select id="category">
+                <option value="all">✨ Surprise Me!</option>
+                <option value="AI">🤖 AI & ML</option>
+                <option value="Web">🌐 Web Development</option>
+                <option value="Social">❤️ Social Impact</option>
+            </select>
+        </div>
+
+        <button onclick="generateIdea()">💡 Generate an Idea</button>
+        
+        <div class="idea-box">
+            <h3 id="idea">Your idea will appear here...</h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
